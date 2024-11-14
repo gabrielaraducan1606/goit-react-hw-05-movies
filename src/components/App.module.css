@@ -1,0 +1,16 @@
+.nav{
+    height: 60px;
+    display: flex;
+   gap: 15px;
+   border: orangered;
+   box-shadow: 10px 10px 5px grey;
+   background-color: aqua;
+}
+.button{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}

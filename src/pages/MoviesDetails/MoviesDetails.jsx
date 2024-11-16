@@ -26,7 +26,7 @@ export default function MovieDetails() {
 
   return (
     <div>
-      <button onClick={handleGoBack}>Go Back</button>
+      <button className={styles.button} onClick={handleGoBack}>Go Back</button>
 
       <div>
        <ul className={styles.ul}>

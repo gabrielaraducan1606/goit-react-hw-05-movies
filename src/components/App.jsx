@@ -29,7 +29,6 @@ function App() {
             <Route path="cast" element={<Cast />} />
             <Route path="reviews" element={<Reviews />} />
           </Route>
-          {/* Redirecționează către pagina principală dacă ruta nu există */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Suspense>
